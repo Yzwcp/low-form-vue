@@ -1,0 +1,35 @@
+{
+  "name": "low-form",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "format": "prettier --write \"src/**/*.+(js|ts|jsx|tsx|vue|astro|scss|sass)\""
+  },
+  "dependencies": {
+    "ant-design-vue": "^4.2.3",
+    "core-js": "^3.6.5",
+    "lodash-es": "^4.17.21",
+    "uuid": "^10.0.0",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.13",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.12",
+    "@types/uuid": "^10.0.0",
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^8.4.0",
+    "prettier": "3.3.3",
+    "typescript": "~4.3.5"
+  }
+}
